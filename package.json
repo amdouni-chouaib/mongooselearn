@@ -1,0 +1,23 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "server": "nodemon ./server.js",
+    "dev" : "concurrently \" npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.13"
+  }
+}
